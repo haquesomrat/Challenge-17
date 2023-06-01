@@ -1,0 +1,130 @@
+@media (min-width: 576px) {
+  .container {
+    width: 1440px;
+    max-width: 100%;
+    padding-inline: 5rem;
+  }
+  img {
+    width: 300px;
+  }
+  /* navbar  */
+  .navbar {
+    margin-bottom: 11.25rem;
+  }
+  .nav-logo {
+    width: 10.5rem;
+  }
+  .nav-item-content {
+    gap: 2.375rem;
+  }
+  .nav-item {
+    font-size: 1em;
+  }
+  /* hero section  */
+  .hero-section {
+    flex-direction: row;
+    gap: 3.5rem;
+  }
+  .hero-text-content {
+    text-align: start;
+    flex-basis: 50%;
+  }
+  .hero-title {
+    font-family: var(--ff-raleway);
+    font-size: 2.6em;
+    font-weight: 700;
+    margin: 0;
+  }
+  .hero-text {
+    font-size: 1.3em;
+    margin: 0;
+  }
+  .input-item {
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 5rem;
+  }
+  .hero-input {
+    flex-basis: 60%;
+  }
+  .hero-btn {
+    flex-basis: 40%;
+  }
+  /* quality section  */
+  .quality {
+    flex-direction: row;
+    gap: 5.625rem;
+    text-align: start;
+    margin-bottom: 6.5rem;
+  }
+  .quality-text-content {
+    flex-basis: 57%;
+  }
+  .quality-title {
+    font-size: 2.6em;
+  }
+  .quality-text {
+    font-size: 1.2em;
+    width: 620px;
+    max-width: 100%;
+    color: var(--very-dark-blue);
+  }
+  .quality-img-content {
+    flex-basis: 43%;
+  }
+  .quality-demo {
+    justify-content: start;
+    width: 25%;
+    margin: 0;
+  }
+  .quote-card {
+    margin: 0;
+    width: 24rem;
+    padding: 1.625rem 2.125rem;
+    gap: 1rem;
+  }
+  .quote-text {
+    font-size: 1em;
+  }
+  /* newsletter section  */
+  .newsletter {
+    text-align: start;
+    padding-block: 4.125rem;
+  }
+  .newsletter-content {
+    flex-direction: row;
+    gap: 13rem;
+  }
+  .newsletter-title {
+    font-size: 2em;
+  }
+  .newsletter-text {
+    font-size: 1.3em;
+  }
+  .newsletter-btn {
+    width: 45%;
+    text-align: center;
+  }
+  /* footer  */
+  .footer {
+    padding: 6.75rem 0 4.375rem;
+  }
+  .footer-content {
+    gap: 1.875rem;
+  }
+  .footer-text-content {
+    flex-direction: row;
+    gap: 13.75rem;
+    justify-content: space-between;
+  }
+  .nav-list {
+    gap: 1.5rem;
+  }
+  .footer-nav-content {
+    flex-direction: row;
+    gap: 13.75rem;
+  }
+  .footer-social-icons {
+    gap: 0.75rem;
+  }
+}
