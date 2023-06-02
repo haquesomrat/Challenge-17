@@ -297,14 +297,14 @@ img {
   flex-direction: column;
   gap: 3.4375rem;
 }
-.nav-list {
+.footer-nav-list {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
   gap: 1.625rem;
 }
-.nav-item {
+.footer-nav-item {
   color: var(--light-grayish-blue);
   font-size: 1.1em;
 }
